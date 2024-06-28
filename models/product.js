@@ -19,7 +19,7 @@ const Product = sequelize.define('Product', {
         field: 'price'
     }
 }, {
-    timestamps: false // Disable automatic timestamps
+    timestamps: false 
 });
 
 module.exports = Product;
